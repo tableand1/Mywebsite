@@ -1,0 +1,61 @@
+body{
+    background-color: darkturquoise;
+
+}
+#homeimage{
+    margin:auto;
+    display:block;
+    margin-top: 5%;
+}
+#homeimage img{
+    margin:auto;
+    display:block;
+
+}
+h1{
+    text-align: center;
+    font-size: 10vw;
+    background-color: blue;
+}
+nav{
+    display: block;
+    padding: 1%;
+    margin-bottom: 5%;
+
+}
+nav a{
+    width:max-content;
+    background-color: lightgreen;
+    font-size: 3vw;
+    margin:5%;
+    padding:0.5%;
+    border-radius: 10%;
+    border: black solid 2px;
+}
+pre{
+    margin-bottom: 5%;
+    margin:auto;
+    display:block;
+    text-align: center;
+    font-size: 2vw;
+}
+#movieimage img{
+    margin:auto;
+    display:block;
+  
+}
+#blogimage img{
+   
+    margin:auto;
+    display:block;
+      
+    
+}
+form{
+    font-size:  2vw;
+    border: black 2px solid;
+}
+input,select,option,textarea{
+    font-size: 2vw;
+}
+
