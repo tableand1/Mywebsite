@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="m.css">
+    </head>
+    <body>
+    <h1>Social Studies project</h1>
+</p>
+<p id="Displaydate/time" class="time" style="text-align: center;">
+
+</p>
+<script class="time">
+    function getdate(){
+    var today=new Date();
+    document.getElementById("Displaydate/time").innerHTML=today.toLocaleString();
+    }
+    setInterval(getdate,1000);
+</script>
+
+    <nav>
+        <a href="Social_studies.html">Home</a>
+        <a href="chapter2.html">Roman Catholic Church</a>
+        <a href="chapter3.html">Byzantine Empire</a>
+        <a href="chapter4.html">How Feudalism Works</a>
+        <a href="chapter5.html">Mediaval towns</a>
+        <a href="chapter6.html">End of feudalism</a>
+        <a href="Journal.html">Journal</a>
+    </nav>
+    <h2>Made By Aarav L and PK</h2>   
+    <br>
+    <br>
+   <pre>
+       This is our social studies project. Here you will find a lot of interesting
+       information about the mediaval times. You will learn about how feudalism worked,
+       how influential the Roman Catholic Church was, what life was like in the towns of
+       mediaval europe, what events in europe caused the decline of feudalism and the start
+       of democracy, and how the byzantine empire developed. Every Chapter will be placed in 
+       order of time. Thank you for visiting my website! :)
+   </pre>
+   <div id="Slideshowdiv">
+    <img src="Feudalism.png" class="slides">
+    <img src="CatholicChurch.png" class="slides">
+    <img src="Mediaval town.png" class="slides">
+    <img src="Byzantine.png" class="slides">
+    <img src="Hundred.png" class="slides">
+</div>
+<script>
+    function startshow(){
+        var images=document.getElementsByClassName("slides")
+        for (var i=0;i<images.length;i++){
+            images[i].style.display="none"
+        }
+        images[index].style.display="block"
+        index++
+        if(index>=images.length){
+            index=0
+        }
+        
+    }
+    var index=0
+
+    setInterval(startshow,3500)
+
+</script>
+<pre>
+These are citings for all the pictures above!
+Feudalim: http://www.internationalschoolhistory.net/IB/myp_history/4/unit1/feudalism_above.htm
+Catholic Church: https://www.irishtimes.com/opinion/guidance-on-catholic-church-reform-might-not-be-from-rome-1.3008588
+Mediaval towns: https://www.thegreatcoursesdaily.com/rise-europe-middle-ages/
+Hundred years war: https://www.thegreatcoursesdaily.com/the-democratization-of-the-hundred-years-war/
+Byzantine empire/Constantinople: https://gohighbrow.com/constantinople-the-worlds-largest-city-in-600-ad/
+</pre>
+
+        
+    </body>
+</html>

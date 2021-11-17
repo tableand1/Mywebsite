@@ -1,0 +1,64 @@
+nav{
+    display: block;
+    padding: 1%;
+    margin-bottom: 5%;
+
+}
+nav a{
+    width:max-content;
+    background-color: lightgreen;
+    font-size: 15px;
+    margin:0.5%;
+    padding:0.5%;
+    border-radius: 10%;
+    border: black solid 2px;
+    transition: 1s;
+    display:inline-flex;
+}
+nav a:hover{
+    transform:(10deg,10deg) translate(3px,-10px);
+    box-shadow: black 5px 5px 5px 5px;
+    font-size: 20px; ;
+}
+p{
+    float: right;
+    margin-bottom: 5px;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: burlywood;
+}
+h2{
+    background-color: darkgoldenrod;
+    border-radius:10%;
+    border: black solid 2px;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    background-color: darkgoldenrod;
+    border-radius:10%;
+    border: black solid 2px;
+    display: block;
+    display: block;
+    padding: 1%;
+    margin-bottom: 5%;
+}
+.time{
+    font-size: 20px;
+    border-radius:10%;
+    border: black solid 2px;
+}
+pre{
+    font-size: 20px;
+    text-align: center;
+}
+#Slideshowdiv{
+    width: fit-content;
+    margin:auto;
+}
+.slides{
+    width:700px;
+    height:400px;  
+}
